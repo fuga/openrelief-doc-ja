@@ -1,0 +1,7 @@
+.*
+!.gitignore
+*~
+*.tmp
+*.bak
+*.swp
+Desktop.ini
