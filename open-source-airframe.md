@@ -1,9 +1,12 @@
 <http://www.openrelief.org/home/open-source-airframe/>
 
-
 #Open Source Airframe
+#オープンソースの飛行機体
 
-#オープンソースの自動操縦飛行機
+>訳者注記:
+OpenRelief のロボット飛行機は、既存のコンポーネントの組み合わせで作られており、その多くが設計の公開されたオープンハードウェアやオープンソース・ソフトウェアです。  
+一方、機体については独自に設計・開発が行われ、その成果は同様にオープンライセンスで公開されています。  
+ここでは、この機体の設計について説明します。
 
 
 ##Specifications
@@ -52,7 +55,7 @@
 - 重い荷物を積載した際に重心を調整するため、翼の位置を変えることができる
 
 - Stringers located on the fuselage to carry the wing, landing gear and other modules
-- 翼、着陸装置、その他のモジュールを支えるため、胴体には縦げた材が設置されている
+- 翼、着陸装置、その他のモジュールを固定するため、胴体には縦げた材が設置されている
 
 - These channels also hold internal items like the motor via bulkhead rings, for quick changes
 - これらの形鋼材はまた、（変更しやすいように環状隔壁を介して）モーター等の内部の部品を支えている
@@ -72,7 +75,7 @@
 - CAD files are from Solidworks
 - CADファイルは、SolidWorksで作成されている
 
- 訳注: ファイルはソリッドワークス社の無償CADツールで開くことができます。
+> 訳注: ファイルはソリッドワークス社の無償CADツールで開くことができます。
 <http://www.solidworks.co.jp/sw/products/free-cad-software-downloads.htm>  
  上記はWin Vista以降のみ対応です。XPの人はRhinoceros評価版等が使えます。
  <http://www.rhino3d.co.jp/product/Rhino50/download.html> 
@@ -100,7 +103,7 @@ Edward Strickland, a gentleman with a degree in aeronautical engineering, experi
 
 The OpenRelief airframe is an expansion of Eddie's research regarding commercial Vertical Take Off and Landing (VTOL) drones.
 
-OpenReliefの機体は、市販の垂直離着陸（VTOL）無人機についてのエディの研究を発展させたものです。
+OpenReliefの機体は、商用の垂直離着陸（VTOL）無人機についてのエディの研究を発展させたものです。
 
  You can review an interesting overview of his VTOL focus on YouTube.
 
@@ -120,7 +123,7 @@ DIYDRONES上の[エディのプロフィールページ][DIYDNROES]を訪問す�
 
 Working with the OpenRelief disaster relief project, students from Oldham College on the BTEC Level 3 Mechanical engineering course have been contributing to the development of airframe parts for the Open Source Unmanned Aerial Vehicle.
 
-オールダム·カレッジ（訳注:英マンチェスター州）の機械工学コース（BTECレベル3）の学生達は、OpenRelief災害救助プロジェクトに参加して、オープンソース無人航空機用の機体部品の開発に貢献してきました。
+オールダム·カレッジ（英マンチェスター州）の機械工学コース（BTECレベル3）の学生達は、OpenRelief 災害救助プロジェクトに参加して、オープンソース無人飛行機用の機体部品の開発に貢献してきました。
 
 
 Students have been working;
@@ -155,7 +158,7 @@ It is expected that the airframe will be shipped from Oldham College to an exper
 
 The first version of the OpenRelief CTOL-UAV airframe was released on the 6th of July 2012.
 
-OpenReliefプロジェクトのCTOL-UAV（従来型離着陸方式自動操縦飛行機）の最初のバージョンは2012年7月6日にリリースされました。
+OpenRelief プロジェクトのCTOL-UAV（従来型離着陸方式の自動操縦飛行機）の最初のバージョンは2012年7月6日にリリースされました。
 
 You can read the original release announcement here
 
@@ -171,7 +174,7 @@ You can read the original release announcement here
 
  It is based on a Conventional Take Off and Landing (CTOL) airframe developed for VTOL testing purposes.
 
-これは、VTOLのテストのために開発された従来型離着陸（CTOL）機体に基づいています。
+これは、VTOL（垂直離着陸型飛行機）のテストのために開発された従来型離着陸（CTOL）機体に基づいています。
 
 The 2.0 airframe was released at LinuxCon Japan on the 31st of May 2013.
 
@@ -182,13 +185,13 @@ The 2.0 airframe was released at LinuxCon Japan on the 31st of May 2013.
 これは、次の改良を備えています：
 
 - An updated tail section to simplify and strengthen the airframe
-- 機体を簡素化し、強化するために更新された尾翼部
+- 機体を簡素化し、強化するために改良された尾翼部
 
 - An updated front fuselage to strengthen the airframe
-- 機体を強化するために更新された前部胴体
+- 機体を強化するために改良された前部胴体
 
 - An updated rear fuselage to strengthen the airframe
-- 機体を強化するために更新された後部胴体
+- 機体を強化するために改良された後部胴体
 
 
 ##License
@@ -207,15 +210,15 @@ The airframe is licensed it under the TAPR Open Hardware License 1.0.
 
 Please note that the propellors are located at the front of the plane, which allows for a simple build and flight quickly, but does introduce the potential issue of damage on landing.
 
-プロペラは飛行機の前部にあり、簡単に組み立てられすばやく飛行することができますが、着陸のときに壊れる潜在的な問題があります。
+この機体ではプロペラが機体正面の先端部にあり、そのためシンプルな構造と高速飛行が可能になっていますが、着陸の際に壊れやすいという問題点もあります。  
 
  There are various ways around this like deploying a parachute, flying into a net or rods which stop the propellor at 3pm position.
 
-この問題に対しては様々な対処方法があります。例えばパラシュートを配備したり、網に飛び込ませる、あるいは午後3時の位置でプロペラを止めるロッド（What is rod?）。
+この問題に対しては様々な対処方法があります。例えばパラシュートを付けたり、網に飛び込ませたり、あるいは午後3時の位置でプロペラを止めるためのロッド（What is rod?）。
 
  However, the default airframe is intended to simplify the build process and does not include these features.
 
-しかし、デフォルトの機体は、成型の過程を簡素化することを意図していて、これらの機能が含まれていません。
+しかし標準の機体では、製造工程を簡素化するためにこれらの機能は含まれていません。
 
 It is also worth bearing in mind that small scale aerodynamics produce large drag components at low speed that continually limit range.
 
@@ -223,12 +226,12 @@ It is also worth bearing in mind that small scale aerodynamics produce large dra
 
  Be conservative about endurance in your local environment.
 
-ローカル環境での耐久性については控えめです。
+あなたの環境での飛行距離・時間については控えめにしてください。
 
 You should also be aware that testing shows even 2 to 3 flights can take a real toil on the system at this scale.
 
-この規模では、僅か２、３回の飛行でもシステムに大きな負荷がかかる事がこれまでのテストから分かっている事を認識しておいてください。
+これまでのテスト結果から見て、僅か２,３回の飛行でもこのスケールのシステムには大きな負荷となる事に留意してください。
 
  This means that the lifetime of an airframe may be limited, especially if it is not checked and maintained frequently.
 
-このため機体の寿命は長くはないでしょう。もし頻繁に検査されメンテナンスされないなら、なおさらです。
+つまり機体の耐用期間は長くはないでしょう。もし頻繁に検査やメンテナンスを行わなければなおさらです。
