@@ -14,11 +14,11 @@ It is a design project to help improve our responses via new ideas and new appro
 
 The robot plane we are developing is one part of this. The radiation sensor is another.
 
-その一部として、私たちはロボット飛行機を、そして放射センサも、開発しています。
+ロボット飛行機の開発も、そして放射センサも、その中の一つなのです。
 
 However, we also need to address the question of how such things can fit into the real world.
 
-しかし、私たちはまた、そのようなものが現実の世界にどのように適合できるのだろうかという問題にも向き合わなければなりません。
+一方で私たちは、どのようにすればそういったものを現実の世界に適合させられるのだろうかという問題にも向き合わなければなりません。
 
 
 ##Moving Beyond Technology
@@ -27,7 +27,7 @@ However, we also need to address the question of how such things can fit into th
 
 To assist with this we are experimenting with wargaming concepts.
 
-この問題に対処するため、私たちはウォーゲーム（机上演習）の概念を試しています。
+この問題に対処するため、私たちはウォーゲーム（机上シミュレーション）の着想を試しています。
 
 While these have conventionally been associated with military planning, and more recently with aggressive management training,
 
@@ -39,7 +39,7 @@ we are aiming to create simple, adaptable and interesting ways to help people th
 
 We released the first public draft of the OpenRelief disaster response situation simulation on the 25th of December 2012.
 
-私たちは、2012年12月25日にOpenReliefの災害対応状況シミュレーションの最初の公開草案を公表しました。
+私たちは、2012年12月25日に OpenRelief 災害対応状況シミュレーションの最初の公開草案を公表しました。
 
 This was developed by Kevin Walsh, an experienced game-master,
 
@@ -57,4 +57,4 @@ You can download it here:
 
 The first edition of the Situation Simulation is currently being created based on feedback from the public draft. It is expected to be released by the end of June 2013.
 
-状況シミュレーションの最初の版は、現在公開草案からのフィードバックに基づいて作成されているところです。これは、2013年6月の終わりまでに公開される予定です。
+状況シミュレーションの最初の版は、公開草案からのフィードバックに基づいて作成が進められているところです。これは、2013年6月の終わりまでに公開される予定です。

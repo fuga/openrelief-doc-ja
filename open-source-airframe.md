@@ -1,7 +1,7 @@
 <http://www.openrelief.org/home/open-source-airframe/>
 
 #Open Source Airframe
-#オープンソースの飛行機体
+#オープンソースの飛行機機体
 
 >訳者注記:
 OpenRelief のロボット飛行機は、既存のコンポーネントの組み合わせで作られており、その多くが設計の公開されたオープンハードウェアやオープンソース・ソフトウェアです。  
@@ -36,7 +36,7 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 
 - より多くのストレージと修理の容易さのためにリモートサーボ（フラッペロン、尾翼面）を使用
 
- 訳注：フラッペロンとは、フラップ（翼の後方を下げて揚力を高める）と、補助翼（機体の左右の傾き・ロールを制御するため、翼の後縁に左右対称に取り付けられている操縦翼面）を、１つにしたもの。下画像の尾翼後縁を参照
+ 訳注：フラッペロンとは、フラップ（翼の後方を下げて揚力を高める）と、補助翼（機体の左右の傾き・ロールを制御するため、翼の後縁に左右対称に取り付けられている操縦翼面）を、１つにしたもの。このフラッペロンや垂直尾翼の後縁のラダーを制御するためのサーボを通常のように機体内ではなく尾翼表面に設置しています。下画像の尾翼を参照
 ![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_100921-225x300.jpg)
 
 - Empty weight 5.5kg
@@ -185,13 +185,13 @@ The 2.0 airframe was released at LinuxCon Japan on the 31st of May 2013.
 これは、次の改良を備えています：
 
 - An updated tail section to simplify and strengthen the airframe
-- 機体を簡素化し、強化するために改良された尾翼部
+- 機体を簡素化し、強化するための尾翼部の改良
 
 - An updated front fuselage to strengthen the airframe
-- 機体を強化するために改良された前部胴体
+- 機体を強化するための胴体前部の改良
 
 - An updated rear fuselage to strengthen the airframe
-- 機体を強化するために改良された後部胴体
+- 機体を強化するための胴体後部の改良
 
 
 ##License
@@ -214,7 +214,7 @@ Please note that the propellors are located at the front of the plane, which all
 
  There are various ways around this like deploying a parachute, flying into a net or rods which stop the propellor at 3pm position.
 
-この問題に対しては様々な対処方法があります。例えばパラシュートを付けたり、網に飛び込ませたり、あるいは午後3時の位置でプロペラを止めるためのロッド（What is rod?）。
+この問題に対しては様々な対処方法があります。例えばパラシュートを付けたり、網に飛び込ませたり、あるいはロッドによって午後3時の位置でプロペラを止める、などです。
 
  However, the default airframe is intended to simplify the build process and does not include these features.
 
@@ -222,16 +222,16 @@ Please note that the propellors are located at the front of the plane, which all
 
 It is also worth bearing in mind that small scale aerodynamics produce large drag components at low speed that continually limit range.
 
-また、継続的に範囲を制限する低速では小規模な空気力学が大きな抗力をもたらす事を念頭に置いておくことも大切です。
+また、低速では小規模な空気抵抗が大きな抗力をもたらし、そのことで航続距離が制限されるという事も重要です。
 
  Be conservative about endurance in your local environment.
 
-あなたの環境での飛行距離・時間については控えめにしてください。
+あなたの環境での飛行距離については控えめに考えてください。
 
 You should also be aware that testing shows even 2 to 3 flights can take a real toil on the system at this scale.
 
-これまでのテスト結果から見て、僅か２,３回の飛行でもこのスケールのシステムには大きな負荷となる事に留意してください。
+これまでのテスト結果から見て、僅か２,３回の飛行でもこのスケールのシステムには大きな負荷となるという点もご承知おきください。
 
  This means that the lifetime of an airframe may be limited, especially if it is not checked and maintained frequently.
 
-つまり機体の耐用期間は長くはないでしょう。もし頻繁に検査やメンテナンスを行わなければなおさらです。
+つまり機体の耐用期間は（もし頻繁に検査やメンテナンスを行わなければ尚の事）限られるでしょう。
