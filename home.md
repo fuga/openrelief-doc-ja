@@ -55,7 +55,7 @@ OSM Japan 古橋氏による日本語スライド資料もあります（一部�
 We need technologists to help design, refine and advocate our tools, we need professional and volunteer relief workers to help design, test and advocate our solutions, and we need commercial enterprises to put these solutions into production.
 
 プロジェクトは様々な形での協力を必要としています。  
-ツールの設計、改良、また普及活動を手助けしてくれる技術者。専門家／ボランティアを問わず災害救援に携わる方々に、私たちのソリューションのデザインや、テスト、普及活動を手助けしてもらえること。そして、企業がこれらのソリューションを事業化することにも期待しています。
+ツールの設計、改良、また普及活動を手助けしてくれる技術者。また、専門家／ボランティアを問わず災害救援に携わる方々にも、私たちのソリューションのデザインや、テスト、普及活動を手助けして頂きたいと考えています。そして、企業がこれらのソリューションを事業化することにも期待しています。
 
 
 ##Next Steps
@@ -64,7 +64,7 @@ We need technologists to help design, refine and advocate our tools, we need pro
 
 Join our user list to get up to speed, join our developer list to work on tools, or join our outreach list to help spread the word.
 
-私たちの活動に興味を持たれたらまずは[ユーザー・メーリングリスト][user list]に、もし開発技術者の方であれば[開発ML][developer list]に、そしてこのプロジェクトを普及する活動に加わって頂けるなら[普及活動・メーリングリスト][outreach list]に、それぞれ登録してください。
+私たちの活動に興味を持たれたらまずは[ユーザー・メーリングリスト][user list]に、もし開発技術者の方であれば[開発ML][developer list]に、そしてこのプロジェクトを普及する活動に加わって頂けるなら[普及活動・メーリングリスト][outreach list]に、それぞれ登録してください。（メーリングリストは原則英語でやりとりされています。）
 
 [user list]:
 http://openrelief.org/mailman/listinfo/user_openrelief.org
