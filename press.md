@@ -62,16 +62,16 @@ shane [at] openrelief.org<br />
 「OpenRelief が災害の霧を払う」
 
 - **Chinese:** ”开源救援用飞机OpenRelief” (<a href="http://www.linuxpilot.net/industry/news/2012061201OpenRelief">LinuxPilot</a>)  
-「オープンソースの救援飛行機 OpenRelief」
+**中国**：「オープンソースの救援飛行機 OpenRelief」
 - **Japanese:** ”オープンソースで安価な災害救助ラジコン飛行機、「OpenRelief」プロジェクト発足” (<a href="http://itpro.nikkeibp.co.jp/article/NEWS/20120608/401161/">ITpro</a>)  
 - **French:** ”Un drone d’analyse des zones sinistrées basée sur des technologies ouvertes” (<a href="http://aviactu.info:1000/?q=node%2F98">AviActu</a>)  
-「オープンな技術に基づく災害地域調査用の無人飛行機」
+**フランス**：「オープンな技術に基づく災害地域調査用の無人飛行機」
 - **German:** ”Raspberry Pi hilft Drohne bei Rettungsmissionen” (<a href="http://www.pressetext.com/news/20120614020">pressetext</a>)  
-「Raspberry Pi（ラズベリーパイ）の無人飛行機が救援活動に役立つ」
+**ドイツ**：「Raspberry Pi（ラズベリーパイ）の無人飛行機が救援活動に役立つ」
 - **Greek:** ”Ρομποτικό αεροπλάνο που σώζει ζωές” (<a href="http://www.nooz.gr/tech/rompotiko-aeroplano-gia-paratirisi-katastrofon">Nooz.gr</a>)  
-「命を救うロボット飛行機」
+**ギリシャ**：「命を救うロボット飛行機」
 - **Russian:** ”OpenRelief: разведы­вательный беспилотник для спасателей стоит медных денег” (<a href="http://blogs.computerra.ru/31950">Computerra.ru</a>)  
-「救助のための無人調査飛行機が、銅貨並みのコスト」
+**ロシア**：「救助のための無人調査飛行機が、銅貨並みのコスト」
 
 
 ##FAQ
@@ -87,7 +87,7 @@ OpenRelief は、災害救援に役立つオープンでモジュラー型の情
 ###OpenRelief は、なぜ始まったのですか？
 
 OpenRelief was inspired by the difficulties encountered when mapping the Tohoku disaster area in Japan during March 2011. It was hard to see through the “fog” of disaster, so we decided to create tools to clear the fog.  
-2011年3月に東日本大震災が発生した際、災害状況のマッピング活動が様々な困難に直面した事がきっかけとなりました。災害の "霧"を見通すことは困難だったので、私たちは霧をクリアするためのツールを作成することにしたのです。
+2011年3月に東日本大震災が発生した際、災害状況のマッピング活動が様々な困難に直面した事がきっかけとなりました。災害の "霧"を見通すことは困難だったので、私たちは霧を払うためのツールを作成することにしたのです。
 
 ###Who is behind OpenRelief?
 ###OpenRelief は誰がやっているのですか？

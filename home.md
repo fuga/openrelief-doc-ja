@@ -1,7 +1,32 @@
 <http://www.openrelief.org/home/>
 
+#Introducing Our Second Generation Open Source Airframe
+#第二世代のオープンソース飛行機体
+
+We recently released our second generation Open Source airframe. The design files for the airframe, from bill of materials to the CAD schematics, are freely available for everyone to use, study, share and improve.  
+先ごろ、私たちの第二世代オープンソース飛行機体がリリースされました。機体の設計ファイルは、部品表からCADの回路図まで全て、誰でも自由に利用・改良・再配布することができます。
+
+
+#Training Tools For Advanced Technology
+#先端技術のためのトレーニングツール
+
+We are experimenting with wargaming concepts.  
+私たちはウォーゲーム（机上シミュレーション）の着想を試しています。  
+While these have conventionally been associated with military planning, and more recently with aggressive management training,  
+これは従来、軍事計画や最近ではアグレッシブなマネジメント研修と結びつけて考えられてきましたが、  
+we are aiming to create simple, adaptable and interesting ways to help people think through the inclusion of advanced technology in their humanitarian efforts.  
+私たちは、人道的な活動に取り組む人々に高度で先進的な技術を採り入れる事を考えてもらえるようにするための、簡単で、融通がきいて、おもしろい方法を作ろうとしています。
+
+
+#A Low Power Open Source Radiation Detector
+#低消費電力のオープンソース放射線検出器
+
+We have released a prototype ionisation chamber-based radiation detector. This can work as a &#8220;canary&#8221; to highlight dangerous rises in radiation and it can wirelessly provide data to UAVs.  
+電離箱式放射線検出器のプロトタイプが公開済みです。これは放射線の危険な上昇を知らせる、いわゆる「炭鉱のカナリア」として働き、無線でロボット飛行機にデータを送ることもできます。
+
+
 #Welcome to OpenRelief
-#災害救援のためのオープンな情報ソリューション OpenRelief
+#OpenRelief へようこそ
 
 Planning disaster relief efforts is like trying to see through fog.  
 災害の中で救援活動を進めるのは、まるで濃い霧の中に迷い込むようなものです。  
@@ -10,25 +35,10 @@ OpenReliefは、この霧を払い、適切な救援活動の助けとなる情�
 This enables the right aid to get to the right places at the right time.   
 これらのソリューションによって、適切な支援が、適切な場所に、適切なタイミングで届くようになります。
 
-
 OpenRelief is using an open source approach that ensures everyone, anywhere, can access our technology.  
 OpenReliefでは、誰もがどこでも私たちの技術を利用できることを保証するオープンソースの手法を用いています。  
 We are working to complement other projects around the world to support the emergence of open, humanitarian drone technology.  
 私たちは現在、オープンで人道的な無人機技術が羽化することを助けるため、世界中の他のプロジェクトを補完する取り組みを行っています。
-
-
-##私たちの最初のプロジェクト
-
->訳者補記:
-この段落は原文にはありませんが、以前からの[日本語ページ][index_jp]には存在し、プロジェクトの活動を知るのに不可欠な情報と考えたため、一部加筆して転載します。この段落の情報は必ずしも最新の情報とは限りません。
-
-[index_jp]:http://openrelief.org/index_jp.html
- 
-私たちは災害地域を調査し、地図を作製するロボット飛行機を開発中です。このロボット飛行機は、一般的な道路から離陸可能なサイズで、かつ道路、人、煙を識別出来る能力を有しています。また、気象情報や放射線を測定するセンサーも備えています。収集した情報は簡単に[Sahana Eden]のような救援情報共有システムと共用することが可能です。
-
-[Sahana Eden]:http://eden.sahanafoundation.org/
- 
-現在私たちはこのロボット飛行機と放射線センサーの開発に注力しています。その後は状況マッピング、コミュニケーション復旧、それに復旧支援のコーディネートなどのツール開発にも取組む予定です。私たちのゴールは災害復旧の支援に活用できる幅広いソリューションを揃えることです。
 
 
 ##Learn More
@@ -44,7 +54,7 @@ Get our ‘From the Front Lines of Open Innovation: OpenRelief, OpenStreetMap an
 http://openrelief.org/openrelief-frontlines.pdf
 
 >訳者補記:
-OSM Japan 古橋氏による日本語スライド資料もあります（一部が上記スライドの日本語訳になっています）
+OSM財団ジャパン 古橋氏による日本語スライド資料もあります（一部が上記スライドの日本語訳になっています）  
 <http://www.slideshare.net/mapconcierge/foss4g-2012-osaka-mapconcierge-x-openrelief>
 
 
@@ -64,7 +74,7 @@ We need technologists to help design, refine and advocate our tools, we need pro
 
 Join our user list to get up to speed, join our developer list to work on tools, or join our outreach list to help spread the word.
 
-私たちの活動に興味を持たれたらまずは[ユーザー・メーリングリスト][user list]に、もし開発技術者の方であれば[開発ML][developer list]に、そしてこのプロジェクトを普及する活動に加わって頂けるなら[普及活動・メーリングリスト][outreach list]に、それぞれ登録してください。（メーリングリストは原則英語でやりとりされています。）
+私たちの活動に興味を持たれたら、まずは[ユーザー・メーリングリスト][user list]に、もし開発技術者の方であれば[開発ML][developer list]に、そしてこのプロジェクトを普及する活動に加わって頂けるなら[普及活動・メーリングリスト][outreach list]に、それぞれ登録してください。（メーリングリストは原則英語でやりとりされています。）
 
 [user list]:
 http://openrelief.org/mailman/listinfo/user_openrelief.org

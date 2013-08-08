@@ -14,6 +14,7 @@ OpenRelief is using an open source approach that ensures everyone, anywhere, can
 ##災害救援のためのオープンなソリューション
 
 Our little robot in the UK
+イギリスで開発中のロボット飛行機
 
 We are creating an open source airframe to investigate and map disaster zones.  
 私たちは、災害地域を探索し地図にするロボット飛行機用のオープンソース機体を開発中です。  
@@ -22,6 +23,7 @@ This airframe can be used with software and hardware from other open projects to
 
 
 Integration is key
+統合が鍵
 
 The robot is designed to be small enough to be launched from footpaths. It can be made smart enough to recognize roads, people and smoke. It can use sensors to measure weather and radiation. The information it collects can easily be shared with disaster management systems like Sahana Eden.  
 このロボット飛行機は歩道からも離陸可能なサイズで、道路、人、煙を認識することができます。また、気象や放射線を測定するセンサーも備えています。収集された情報は簡単に [Sahana Eden] のような救援情報共有システムと共用することができます。
@@ -30,9 +32,10 @@ The robot is designed to be small enough to be launched from footpaths. It can b
 
 
 The radiation detector in all its glory
+放射線検出器
 
 We have also built a radiation detector that can be placed around disaster zone and broadcast information to the robot plane while using very little power. This is a “canary” to help relief workers detect spikes in radiation. It is intended to inspire the creation of other modules to detect other hazards in the future.  
-また、災害地域一帯に設置し、ロボット飛行機に情報をブロードキャストでき、非常に少電力で稼働する放射線検出器も作り上げました。これは救援活動に携わる方々に、放射線の急激な上昇を知らせるための、いわゆる「炭鉱のカナリア」です。今後、他の様々な危険を検出するモジュールが作られるきっかけとなって欲しいと思います。
+さらに私たちは放射線検出器も作り上げました。それは、災害地域一帯に設置され、ロボット飛行機に情報を送ることができ、とても小さな電力しか必要としません。これは救援活動に携わる方々に、放射線の急激な上昇を知らせるための、いわゆる「炭鉱のカナリア」です。今後、他の様々な危険を検出するモジュールが作られるきっかけとなって欲しいと思います。
 
 
 ##Contributors (in no particular order)
@@ -45,10 +48,10 @@ Shane Coughlan
 Shane is an expert in communication methods and business development. He is best known for building bridges between commercial and non-commercial stakeholders in the technology sector.  
 シェーンは、コミュニケーション術や事業展開のエキスパートであり、テクノロジーの分野における企業と非営利な関係者との橋渡し役として知られています。  
 His professional accomplishments include establishing a legal department for the main NGO promoting Free Software in Europe, building a professional network of over 270 legal counsel and technical experts across 4 continents, and aligning corporate and community interests to launch the first law review dedicated to Free/Open Source Software.  
-彼は、フリーソフトウェアを推進するヨーロッパの主要なNGOのために法務部門を確立し、4大陸に跨る270人以上の弁護士と技術者によるプロフェッショナルネットワークを構築、フリー/オープンソースソフトウェアのための初めてのロー・レビューを発行するため、企業とコミュニティ関係者とを連携させました。
+彼は、ヨーロッパにおいてフリーソフトウェアを推進する主要なNGOのために法務部門を設立し、4大陸に跨る270人以上の弁護士と技術者によるプロフェッショナルネットワークを構築、フリー/オープンソースソフトウェアのための初めてのロー・レビューを発行するため、企業とコミュニティ関係者とを連携させました。
 
 Shane has extensive knowledge of Internet technologies, management best practice, community building and Free/Open Source Software. His experience includes engagement with the server, desktop, embedded and mobile telecommunication industries.  
-シェーンは、インターネット技術、経営のベストプラクティス、コミュニティの構築とフリー/オープンソースソフトウェアといった広い範囲に精通しており、  サーバ、デスクトップ、組み込み、それにモバイル通信業界での従事経験があります。  
+シェーンは、インターネット技術、経営のベストプラクティス、コミュニティの構築とフリー/オープンソースソフトウェアといった広い範囲に精通しており、  サーバ、デスクトップ、組み込み、それにモバイル通信業界に従事した事があります。  
 He does business in Europe, Asia and the Americas, and maintains a broad network of contacts.  
 彼はヨーロッパ、アジアそしてアメリカ大陸でビジネスを行い、幅広い人脈を保っています。
 
@@ -78,7 +81,7 @@ Andrew co-founded the Electron Club in 2006 — one of the UK’s first hackersp
 
 Kevin Walsh
 ###Kevin Walsh, lead of the first public draft of the Situation Simulation
-###ケビン・ウォルシュ （Kevin Walsh）、状況シミュレーションの最初の公開草案を主導
+###ケビン・ウォルシュ （Kevin Walsh）、状況シミュレーションの最初の公開ドラフト版を主導
 
 Kevin is an experienced games-master and strategist with an interest in developing simple, flexible ways for people to apply their skills to problems.  
 ケビンは経験豊富なゲームマスターにして戦略家です。彼は人々に様々な問題に対して自分の能力を発揮させるためのシンプルで柔軟な方法を開発することに関心を持っています。
@@ -116,7 +119,7 @@ Neuroforge のディレクター。Neuroforge は、画像認識技術や人工�
 
 Alan is involved with Research and Development (Robotics) at Amberley Aerospace, volunteers at LAC and SES at Emergency Management Queensland, and has been part of the OpenRelief development team since our formal launch.  
 アランは、アンバレー航空宇宙局でロボット工学の研究開発に携わっており、クイーンズランド緊急管理局の
-LAC（Local Ambulance Committee）や州緊急サービス（State Emergency Service: SES）でボランティアに従事しています。そして私たちの正式な立ち上げ以来、OpenRelief の開発チームの一員となっています。
+LAC（Local Ambulance Committee）や州緊急サービス（State Emergency Service: SES）でボランティアに従事しています。そしてプロジェクトの正式な立ち上げ以来、OpenRelief の開発チームの一員となっています。
 
 
 Karl Lattimer
@@ -126,7 +129,7 @@ Karl Lattimer
 Karl’s  main focus tends to be toward user interface, experience and interaction design and implementation.  
 カールの関心は、主にユーザインタフェースやユーザー体験、ユーザーインタラクション（入出力・対話）の設計と実装に向かっています。
 
-He writes code in languages from C, Python, C++, Vala, C# with Qt, Gtk, Clutter, Cairo, Gstreamer or whatever libraries are available to achieve whatever goals required.
+He writes code in languages from C, Python, C++, Vala, C# with Qt, Gtk, Clutter, Cairo, Gstreamer or whatever libraries are available to achieve whatever goals required.  
 彼は、CやPython、C++、Vala、C#といった言語でコードを書き、Qt、GTK、Clutter、Cairo、GStreamerや、その他求められたどんな目標をも達成するために使えるものならどんなライブラリでも使いこなします。
 
 Karl build the first two OpenRelief prototype airframes (off-the-shelf FPV168 systems) prior to the formal launch of the project at LinuxCon Japan 2012.  
@@ -142,10 +145,10 @@ An experienced executive with multifaceted expertise, encompassing engineering m
 
 Decisive and strategic, with significant experience in the design, implementation and successful delivery of full-scale commercial operating systems (e.g. Mac OS 7, 8 and 9, Palm OS 4, 5, and 6, the ACCESS Linux Platform, etc.).
 
-本格的な商用OS（例えばMac OS7、8、9、パームOS 4、5、6、Access Linux Platform（ALP）など）の設計、実装、納入の成功といった重要な経験に裏付けられた決定力と戦略。
+本格的な商用OS（例えばMac OS7、8、9、パームOS 4、5、6、Access Linux Platform（ALP）など）の設計、実装、納入の成功といった著しい経験に裏付けられた決定力と戦略。
 
 Extensive project management experience, and an excellent record of delivering high-quality code on schedule. A media-trained corporate spokesperson, with exceptional written, oral and presentation skills. Exceptionally well-traveled and globally experienced, speaks Japanese and French.  
-大規模なプロジェクト管理の経験。納期通りで高品質のコードを提供してきた優れた経歴。卓越した文章でのあるいは口頭でのプレゼンテーション能力を伴いメディアにも慣れた企業のスポークスマン。非常によく旅して世界中を経験し、日本語とフランス語を話す。
+大規模なプロジェクト管理の経験。納期通りに高品質のコードを提供してきた優れた経歴。卓越した、文章でのあるいは口頭での、プレゼンテーション能力を伴い、かつメディアにも慣れた企業スポークスマン。非常によく旅して世界中を経験し、日本語とフランス語を話す。
 
 
 Jane Johnston

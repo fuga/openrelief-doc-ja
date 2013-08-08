@@ -36,7 +36,7 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 
 - より多くのストレージと修理の容易さのためにリモートサーボ（フラッペロン、尾翼面）を使用
 
- 訳注：フラッペロンとは、フラップ（翼の後方を下げて揚力を高める）と、補助翼（機体の左右の傾き・ロールを制御するため、翼の後縁に左右対称に取り付けられている操縦翼面）を、１つにしたもの。このフラッペロンや垂直尾翼の後縁のラダーを制御するためのサーボを通常のように機体内ではなく尾翼表面に設置しています。下画像の尾翼を参照
+> 訳注：フラッペロンとは、フラップ（翼の後方を下げて揚力を高める）と、補助翼（機体の左右の傾き・ロールを制御するため、翼の後縁に左右対称に取り付けられている操縦翼面）を、１つにしたもの。このフラッペロン操作用のサーボはおそらく主翼内に、尾翼後縁のエレベータ/ラダーを制御するためのサーボに至っては通常のように機体内ではなく下画像のように尾翼表面に設置されています。  
 ![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_100921-225x300.jpg)
 
 - Empty weight 5.5kg
@@ -95,11 +95,12 @@ CAD図面と部品表をここからダウンロードすることができま�
 
 ##プロジェクトを支える人々
 
-Edward Strickland
+###Edward Strickland
+###エドワード·ストリックランド（Edward Strickland）
 
 Edward Strickland, a gentleman with a degree in aeronautical engineering, experience with Open Source Auto Pilots and 7 years experience with QinetiQ and UK MoD, has lead the development of the OpenRelief airframe.
 
-エドワード·ストリックランドは、航空工学の学位を持つ紳士で、オープンソースの自動航行技術に通じ、キネティック社と英国国防省で7年の経験を持ち、OpenReliefでの機体の開発をリードしています。
+エドワード·ストリックランドは、航空工学の学位を持つ紳士で、オープンソースの自動航行技術に通じ、キネティック（QinetiQ）社と英国国防省で7年の経験を持ち、OpenReliefでの機体の開発をリードしています。
 
 The OpenRelief airframe is an expansion of Eddie's research regarding commercial Vertical Take Off and Landing (VTOL) drones.
 
@@ -149,12 +150,12 @@ It is expected that the airframe will be shipped from Oldham College to an exper
 
  leading to further rigorous testing in the Australian outback with a final destination of Japan for humanitarian flight testing over the Tsunami affected disaster areas.
 
-これは、オーストラリアの奥地での更に厳しいテストを経て、日本の津波被災地での飛行テストに繋がるでしょう。
+これは、オーストラリア内陸砂漠地帯での厳しいテストを経て、日本の津波被災地での飛行テストに繋がるでしょう。
 
 
-#History
+##History
 
-#ここまでの軌跡
+##ここまでの軌跡
 
 The first version of the OpenRelief CTOL-UAV airframe was released on the 6th of July 2012.
 
