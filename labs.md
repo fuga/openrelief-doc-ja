@@ -112,7 +112,7 @@ We expect the first generation of designs to be load mission, go and return with
  Moving ahead, the ability to stream some data will be useful, starting with the simple “where is the drone now” and moving towards “what is it seeing?”  
  さらに進んで、飛行中のロボット飛行機からデータをストリーミングできれば便利です。最初はシンプルに「今どこにロボット飛行機があるのか？」から始めて、続いて「何が見えているか?」を。  
  The later end of that is likely to rely on communication hubs we will prototype off Tegra2 boards, which can make use of multiple bands via software defined radio, as well as GSM and similar methods of obtaining data from the planes and deployed sensors.  
- 最終目的のためには、飛行機や配置されたセンサーからデータを取得するためのGSMやその他類似の方法のように、ソフトウェア無線を介して複数のバンドを利用することができるTegra2ボードのようなコミュニケーションハブが必要になるでしょう。
+ 最終目標となる三番目のユースケースに必要と思われる通信ハブは、Tegra2ベースのボードを使ってプロトタイプを作ろうとしています。これは、飛行機や配置されたセンサーからデータを取得するためのGSMやその他類似の方式と同様に、ソフトウェア無線を介して複数のバンドを利用することができます。
 
 Putting that in context, here are the Drone Manager (our drone control server software) use-cases, and they can be understood both in order of development priority and time to deployment.  
 「ドローン・マネージャ」（私たちのロボット飛行機制御用のサーバソフトウェア）のユースケースを以下に示します。
@@ -193,7 +193,7 @@ We just want to make sure relief workers know a drone mission was carried out, t
 Sahana Eden の側からエクスポートするべきデータはおそらくずっと少ないです。まずは最適な飛行ルートによる新しいミッション（飛行任務）を作成するための「ロボット飛行機に経由させる地点」の情報、そしておそらくそれに加えて既に調査されたエリアを再調査するための「やり直すミッション」の情報です。
 
 - One area where we probably need to duplicate is the “who assigns the mission ID” feature.  
- 私たちが、おそらく２重化しなければならないものの１つ、それが「だれがミッションに識別IDを割り当てるのか？」という点に関わっています。  
+ ミッションに対する識別IDの割り当てに関しては、おそらく重複して行わなければなりません。  
 Eden probably needs to be able to assign mission IDs for its normal workflow, but we probably also need to be able to create/import/export mission IDs in the Drone Manager, especially in contexts where people are not using Eden.   
  Sahana Eden でミッションを管理する際、その正常な作業フローのためにデータに識別IDを割り当てる必要があるでしょう。一方「ドローン・マネージャ」の方でも（ Sahana Eden を併用せずにこれを利用する場合などには）、独自に識別IDを割り当てる必要があります。  
 This is where we have to be aware that while Eden is a primary target for interoperability, the OpenRelief solution needs to also function without it.  

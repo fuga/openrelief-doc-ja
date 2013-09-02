@@ -43,7 +43,7 @@ We released the first public draft of the OpenRelief disaster response situation
 
 This was developed by Kevin Walsh, an experienced game-master,and someone who has used a bird's eye concept that we can hopefully adapt and evolve to suit responders around the world.
 
-これは、経験豊富なゲームマスター、ケビン·ウォルシュ（Kevin Walsh）によって開発され、世界中の救援活動者に合わせ適応・進化してく事が期待できます。
+これは、経験豊富なゲームマスター、ケビン·ウォルシュ（Kevin Walsh）によって開発されました。ケビンは、世界中の救援活動者に合わせ適応・進化していく事が期待できる全体像を作り上げました。
 
 You can download it here:
 
