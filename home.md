@@ -4,18 +4,18 @@
 #第二世代のオープンソース飛行機体
 
 We recently released our second generation Open Source airframe. The design files for the airframe, from bill of materials to the CAD schematics, are freely available for everyone to use, study, share and improve.  
-先ごろ、私たちの第二世代オープンソース飛行機体がリリースされました。機体の設計ファイルは、部品表からCADの回路図まで全て、誰でも自由に利用・改良・再配布することができます。
+私たちの第二世代オープンソース飛行機体がリリースされました。機体の設計ファイルは、部品表からCADの回路図まで全て、誰でも自由に利用・改良・再配布することができます。
 
 
 #Training Tools For Advanced Technology
 #先端技術のためのトレーニングツール
 
 We are experimenting with wargaming concepts.  
-私たちはウォーゲーム（机上シミュレーション）の着想を試しています。  
+私たちのコンセプトはウォーゲーム（机上シミュレーション）の方法論から生まれています。  
 While these have conventionally been associated with military planning, and more recently with aggressive management training,  
-これは従来、軍事計画や最近ではアグレッシブなマネジメント研修と結びつけて考えられてきましたが、  
+この方法論は、かつては軍事計画、最近ではアグレッシブなマネジメント研修と結びつけて考えられてきました。  
 we are aiming to create simple, adaptable and interesting ways to help people think through the inclusion of advanced technology in their humanitarian efforts.  
-私たちは、人道的な活動に取り組む人々に高度で先進的な技術を採り入れる事を考えてもらえるようにするための、簡単で、融通がきいて、おもしろい方法を作ろうとしています。
+しかし私たちはこの方法を使って、人道的な活動に取り組む人々に高度で先進的な技術を採り入れる事を考えてもらえるようにするための、簡単で、融通がきいて、おもしろい仕組みを作り上げることを目的としています。
 
 
 #A Low Power Open Source Radiation Detector
@@ -38,7 +38,7 @@ This enables the right aid to get to the right places at the right time.
 OpenRelief is using an open source approach that ensures everyone, anywhere, can access our technology.  
 OpenReliefでは、誰もがどこでも私たちの技術を利用できることを保証するオープンソースの手法を用いています。  
 We are working to complement other projects around the world to support the emergence of open, humanitarian drone technology.  
-私たちは現在、オープンで人道的な無人機技術が羽化することを助けるため、世界中の他のプロジェクトを補完する取り組みを行っています。
+私たちは現在、オープンで人道的な無人機技術を羽ばたかせるべく、世界中の他のプロジェクトを補完する取り組みを行っています。
 
 
 ##Learn More
@@ -60,7 +60,7 @@ OSM財団ジャパン 古橋氏による日本語スライド資料もありま�
 
 ##Be Part Of This
 
-##是非参加して下さい
+##是非参加してください
 
 We need technologists to help design, refine and advocate our tools, we need professional and volunteer relief workers to help design, test and advocate our solutions, and we need commercial enterprises to put these solutions into production.
 
