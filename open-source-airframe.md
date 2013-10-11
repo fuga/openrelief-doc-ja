@@ -15,7 +15,7 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 
 - Length 1.4 meters
 
-- 長さ 1.4メートル
+- 全長 1.4メートル
 
 - Wing span 1.8 meters
 
@@ -52,10 +52,10 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 - 航続時間 1〜4時間（既存の仕様の場合）
 
 - Wings can be repositioned to change CoG for large payloads
-- 重い荷物を積載した際に重心を調整するため、翼の位置を変えることができる
+- 重い荷物を積載した際に重心を調整するため、翼の位置を変えることが可能
 
 - Stringers located on the fuselage to carry the wing, landing gear and other modules
-- 翼、着陸装置、その他のモジュールを固定するため、胴体には縦げた材が設置されている
+- 翼、着陸装置、その他のモジュールを固定するため、胴体には縦げた材を配置
 
 - These channels also hold internal items like the motor via bulkhead rings, for quick changes
 - これらの形鋼材はまた、（変更しやすいように環状隔壁を介して）モーター等の内部の部品を支えている
@@ -64,16 +64,16 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 ![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_095613-300x225.jpg)
 
 - Fuselage can carry liquids (same diameter as 2L bottle of cola)
-- 胴体は（コーラの2Lボトルと同じ直径の）液体を運ぶことができる
+- 胴体は液体の運搬が可能（大きさはコーラの2Lボトルと同じ程度の直径）
 
 - Can be launched by rail and use parachute recovery
-- レールから射出する事ができ、パラシュートで回収できる
+- レールから射出する事ができ、パラシュートで回収可能
 
 - Can be fitted with front wheels for conventional landing in rough fields
-- 荒地に着陸するために前輪を取り付けることができる
+- 荒地に着陸するために前輪を取り付けることが可能
 
 - CAD files are from Solidworks
-- CADファイルは、SolidWorksで作成されている
+- CADファイルは SolidWorks で作成
 
 > 訳注: ファイルはソリッドワークス社の無償CADツールで開くことができます。
 <http://www.solidworks.co.jp/sw/products/free-cad-software-downloads.htm>  
@@ -86,7 +86,7 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 
 You can download the CAD schematics and the bill of materials here:
 
-CAD図面と部品表をここからダウンロードすることができます：
+CAD図面と部品表のダウンロード: 
 
 <http://www.openrelief.org/documents/CTOL-UAV-current.zip>
 
