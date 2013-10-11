@@ -17,16 +17,15 @@ Our little robot in the UK
 イギリスで開発中のロボット飛行機
 
 We are creating an open source airframe to investigate and map disaster zones.  
-私たちは、災害地域を探索し地図にするロボット飛行機用のオープンソース機体を開発中です。  
+私たちは、災害地域を探索し、地図として表現するオープンソースのロボット飛行機を開発しています。  
 This airframe can be used with software and hardware from other open projects to create a robot.  
-この機体と他のオープンプロジェクトのソフトウェアやハ​​ードウェアとを組み合わせる事で、ロボット飛行機を作る事ができます。
-
+ロボットを作成することを目的としたオープンプロジェクトのソフトウェアやハ​​ードウェアは他にも様々なプロジェクトがありますが、この機体の運用はそれらと組み合わせた形で行うことが可能です。
 
 Integration is key
-統合が鍵
+統合こそが鍵
 
 The robot is designed to be small enough to be launched from footpaths. It can be made smart enough to recognize roads, people and smoke. It can use sensors to measure weather and radiation. The information it collects can easily be shared with disaster management systems like Sahana Eden.  
-このロボット飛行機は歩道からも離陸可能なサイズで、道路、人、煙を認識することができます。また、気象や放射線を測定するセンサーも備えています。収集された情報は簡単に [Sahana Eden] のような救援情報共有システムと共用することができます。
+このロボット飛行機は歩道からも離陸可能なサイズとしてデザインされており、道路や人、煙などを認識する機能を搭載しています。また、気象や放射線を測定するセンサーも備えています。機体が収集した情報は [Sahana Eden] のような救援情報共有システムと簡単に共用することが可能です。
 
 [Sahana Eden]:http://eden.sahanafoundation.org/
 
@@ -35,7 +34,7 @@ The radiation detector in all its glory
 放射線検出器
 
 We have also built a radiation detector that can be placed around disaster zone and broadcast information to the robot plane while using very little power. This is a “canary” to help relief workers detect spikes in radiation. It is intended to inspire the creation of other modules to detect other hazards in the future.  
-さらに私たちは放射線検出器も作り上げました。それは、災害地域一帯に設置され、ロボット飛行機に情報を送ることができ、とても小さな電力しか必要としません。これは救援活動に携わる方々に、放射線の急激な上昇を知らせるための、いわゆる「炭鉱のカナリア」です。今後、他の様々な危険を検出するモジュールが作られるきっかけとなって欲しいと思います。
+さらに私たちは放射線検出器それ自体も作り上げました。災害地域一帯にこの検出器を設置し、検出器から創出される情報をロボット飛行機で収集します。さらにこの検出器はとても小さな電力しか必要としません。これは救援活動に携わる人々に、放射線の急激な上昇を知らせるための、いわゆる「炭鉱のカナリア」となります。今後、他の様々な危険を検出するモジュールが作られるきっかけとなって欲しいと思います。
 
 
 ##Contributors (in no particular order)
@@ -102,10 +101,8 @@ Taichi Furuhashi
 ###Taichi Furuhashi, Japanese mapping and flight testing
 ###古橋 大地、日本での地図製作と飛行テスト
 
-President of MAPconcierge/Researcher of CSIS,u-tokyo/Director of OSGeoJP/Member of OpenStreetMapJ&OpenConcierge/Editor of GISNEXT/KML evangelist  
-マップコンシェルジュ株式会社（MAPconcierge）社長 / 東京大学空間情報科学研究センター（CSIS）特任研究員 / OSGeo財団日本支部（OSGeo.JP）理事 / 一般社団法人オープンストリートマップ・ファウンデーション・ジャパン（OSMFJ）副理事長 / NPO法人オープンコンシェルジュ会員 / GIS NEXT編集部 / KMLエヴァンジェリスト
+マップコンシェルジュ株式会社 代表取締役社長、オープンストリートマップ・ファウンデーション・ジャパン副理事長、東京大学空間情報科学研究センター特任研究員、OSGeo財団日本支部理事。東京大学大学院新領域創成科学研究科修了（環境学修士）。専門は森林リモートセンシング。地理空間情報の利活用を軸に、Googleジオサービス、オープンソースGIS(FOSS4G)、オープンデータ(OpenStreetMap)の技術コンサルティングや教育指導を行なっている。ここ数年は「一億総伊能化」をキーワードにみんなで世界地図をつくるOpenStreetMapに熱を上げている。最近の主なプロジェクト：JICA Project /ブラジル国アマゾン森林保全・違法伐採防止のためのALOS衛星画像の利用プロジェクト(Alos4Amazon)
 
-いろいろなＫＭＬの使い方とその応用を提供するＫＭＬコンサルタントです。とくにGoogle EarthやGoogle Mapsをはじめとした Google社のサービスやその他の便利なサービスを活用するテクニックをご紹介しております。
 
 ###John (Dan) Bell, vision technology
 ###ジョン [ダン] ベル（John [Dan] Bell）、画像認識技術
