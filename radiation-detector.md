@@ -15,7 +15,7 @@ Radiation Detector Circuit
 放射線検出回路
 
 This is a prototype of an ionisation chamber-based radiation detector for OpenRelief. It is designed around a Nanode but could easily make use of another Arduino-compatible board with Ethernet. The steps involved in its operation are as follows:  
-これはOpenReliefの電離箱式放射線検出器のプロトタイプです。これは、Nanodeボードを中心に設計されていますが、それとは別のイーサネット付きArduino互換ボードを利用することも簡単にできます。その動作に必要な手順は次のとおりです。
+これはOpenReliefで利用する、電離箱式放射線検出器のプロトタイプです。これは、Nanodeボードを中心に設計されていますが、それとは別のイーサネット付きArduino互換ボードを利用することも簡単にできます。動作に必要な手順は次のとおりです。
 
 - Briefly pull the JFET source low to discharge the chamber wire  
 JFET（ジャンクションFETトランジスタ）のソース端子側の電圧を下げ、電離箱内の銅線を解放電する。
@@ -38,7 +38,7 @@ JFET（ジャンクションFETトランジスタ）のソース端子側の電�
 ##設計ファイル/コード
 
 You can download the design files and the code here:  
-ここから設計ファイルとコードをダウンロードすることができます：  
+設計ファイルとコードのダウンロード:   
 <http://solderpad.com/openrelief/radiation-detector>
 
 
@@ -49,7 +49,7 @@ There are two posts detailing the development of the OpenRelief radiation detect
 OpenRelief の放射線検出器開発についての詳しい説明が DesignSpark に投稿されています。
 
 The first is entitled ‘A Treacle Tin Radiation Detector‘ and covers the initial build process. In it Andrew explains that while “the Geiger counter has become synonymous with radiation detection [...] there are many ways to achieve this other than using a Geiger-Muller (GM) tube. The ionisation chamber works on similar principles to the GM tube, but is an incredibly simple design that can be constructed from an old tin can and which does not require the use of high voltages and an inert gas and halogen fill.  
-”最初の投稿は「[シロップ缶の放射線検出器][a-treacle-tin-radiation-detector]」と題され、初期のビルドプロセスについて記載されています。その中でアンドリューは次のように述べています。「ガイガーカウンターは放射線検出の代名詞となっていますが[中略]ガイガー·ミュラー（GM）管を使用する以外にも多くの方法があります。電離箱は、GM管と同様の原理で動作しますが、古い缶を利用して作る事もできる非常にシンプルなデザインで、高電圧や不活性ガスやハロゲンの充填などを必要としません。」
+”最初の投稿は「[シロップ缶の放射線検出器][a-treacle-tin-radiation-detector]」と題され、初期のビルドプロセスについて記載されています。その中でアンドリューは次のように述べています。「ガイガーカウンターは放射線検出の代名詞となっていますが[中略]ガイガー·ミュラー（GM）管を使用する以外にも多くの方法があります。電離箱は、GM管と同様の原理で動作しますが、古い缶を利用して作る事もできる非常にシンプルなデザインで、高電圧や不活性ガス、ハロゲンの充填などを必要としません。」
 
 [a-treacle-tin-radiation-detector]:http://www.designspark.com/blog/a-treacle-tin-radiation-detector
 
