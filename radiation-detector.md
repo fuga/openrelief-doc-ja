@@ -18,7 +18,7 @@ This is a prototype of an ionisation chamber-based radiation detector for OpenRe
 これはOpenReliefで利用する、電離箱式放射線検出器のプロトタイプです。これは、Nanodeボードを中心に設計されていますが、それとは別のイーサネット付きArduino互換ボードを利用することも簡単にできます。動作に必要な手順は次のとおりです。
 
 - Briefly pull the JFET source low to discharge the chamber wire  
-JFET（ジャンクションFETトランジスタ）のソース端子側の電圧を下げ、電離箱内の銅線を解放電する。
+JFET（ジャンクションFETトランジスタ）のソース端子側の電圧を下げ、電離箱内の電極線を解放電する。
 - Take a voltage reading  
 電圧を測定する
 - Pause  
@@ -27,11 +27,6 @@ JFET（ジャンクションFETトランジスタ）のソース端子側の電�
 ２回目の電圧測定を行う
 - Calculate the voltage drift  
 電圧差を計算する
-
-
-> 訳者注記：JFETは下写真中央の黒い素子でソース端子は右側の赤白の線でNanodeボードの基盤と繋がっています。chamber wireは下図の真ん中から下向きに伸びている銅線の事でこれは缶本体とは絶縁されて缶の中心を縦断しています。通常は缶と銅線の間に電流は全く流れないのですが、缶と銅線の間に電圧がかかった状態で、電離放射線が缶の中に入ってくると電圧で荷電粒子が引き寄せられるので、微弱電流が検出され、放射線と推定できる、という事のようです。  
-![](http://www.openrelief.org/home/wp-content/uploads/2013/06/7255301718_c0b43fda2c_o-150x150.jpg)  
-
 
 
 ##Design Files / Code
@@ -54,7 +49,7 @@ The first is entitled ‘A Treacle Tin Radiation Detector‘ and covers the init
 [a-treacle-tin-radiation-detector]:http://www.designspark.com/blog/a-treacle-tin-radiation-detector
 
 The second is entitled ‘An Ionisation Chamber Shield for OpenRelief‘ and details the construction of an inverter to replace the bank of batteries previously used for bias power supply. Andrew explains that “to recap, the bias voltage is applied across the ionisation chamber electrodes, between which tiny currents flow when ionising radiation enters the chamber. Using four PP3 batteries in series provided a bias of 36v, which is possibly suboptimal in addition to not being terribly convenient.”  
-２つめは「[OpenRelief 電離箱シールド][an-ionisation-chamber-shield-for-openrelief]」というタイトルで、それまで使われていたバッテリーに代わりバイアス電源を供給するインバータの構成について詳しく書かれています。アンドリュー曰く、「電離箱の電極の間にバイアス電圧を加えると、電離箱の中に放射線が入った時に微かな電流が流れます。4個のPP3バッテリーを直列で使用する事で36Vのバイアス電圧を供給できますが、これはおそらく最適ではないでしょうし、非常に扱いやすいという訳でもありません。」
+２つめは「[OpenRelief 電離箱シールド][an-ionisation-chamber-shield-for-openrelief]」というタイトルで、それまで使われていたバッテリーに代わりバイアス電源を供給するインバータの構成について詳しく書かれています。アンドリュー曰く、「電離箱の電極の間にバイアス電圧を加えると、電離箱の中に電離放射線が入った時に微かな電流が流れます。4個のPP3バッテリーを直列で使用する事で36Vのバイアス電圧を供給できますが、これはおそらく最適ではないでしょうし、非常に扱いやすいという訳でもありません。」
 
 [an-ionisation-chamber-shield-for-openrelief]:http://www.designspark.com/blog/an-ionisation-chamber-shield-for-openrelief
 

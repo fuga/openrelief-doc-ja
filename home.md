@@ -47,14 +47,13 @@ We are working to complement other projects around the world to support the emer
 
 Get our ‘From the Front Lines of Open Innovation: OpenRelief, OpenStreetMap and Openness Challenges‘ slides for a short introduction to the project.
 
-プロジェクトの簡単な紹介のためのスライド資料を公開しています。  
+プロジェクトの簡単な紹介のためのスライド資料（英語）を公開しています。  
 [「オープンイノベーションの最前線から：OpenRelief、OpenStreetMap、そしてOpennessの挑戦」][slides]
 
 [slides]:
 http://openrelief.org/openrelief-frontlines.pdf
 
->訳者補記:
-OSM財団ジャパン 古橋氏による日本語スライド資料もあります（一部が上記スライドの日本語訳になっています）  
+>外部リンク:「空撮用UAVの未来とOpenRelief」（FOSS4G 2012 Osakaでの古橋大地氏発表資料）
 <http://www.slideshare.net/mapconcierge/foss4g-2012-osaka-mapconcierge-x-openrelief>
 
 

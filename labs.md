@@ -62,11 +62,6 @@ The simplest version of this is the ‘Ground Control Station’ used to program
 
 [Mission Planner]:http://code.google.com/p/ardupilot-mega/wiki/GroundStation
 
-訳注：ここではmissionというのは、調査などの目的を持った1回の飛行を指しています。Mission Plannerというのはそういう意の名称です。
-原文中では、飛行ルートや調査結果など、その飛行に関連する一連のもの全て含めて指し示す単位として、missionという語が多用されています。missonを作成するというのは管理ソフトで飛行ルートを設定する事を指していますし、droneにmissionをloadするというのは、この飛行ルートをロボット飛行機の自動操縦装置に設定することです。訳文中では適宜適切と思われるように言い替えていますが、ミッションと書くしか他に書きようが無いケースではそのように記述します。
-
-
-
  Mission Planner is very useful to put waypoints into the drones and to see precisely where they went in post-mission summaries.  
  Mission Planner はとても便利で、ロボット飛行機が飛行する前にウェイポイント（飛行経路を指定するための通過地点情報）を設定しておくことが可能であり、さらに、飛行後に実際にどこを飛行してきたのかを正確に表示させる機能も有しています。
 

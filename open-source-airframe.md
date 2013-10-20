@@ -1,12 +1,7 @@
 <http://www.openrelief.org/home/open-source-airframe/>
 
 #Open Source Airframe
-#オープンソースの飛行機機体
-
->訳者注記:
-OpenRelief のロボット飛行機は、既存のコンポーネントの組み合わせで作られており、その多くが設計の公開されたオープンハードウェアやオープンソース・ソフトウェアです。  
-一方、機体については独自に設計・開発が行われ、その成果は同様にオープンライセンスで公開されています。  
-ここでは、この機体の設計について説明します。
+#Open Source Airframe(ロボット飛行機のためのオープンソース機体)
 
 
 ##Specifications
@@ -29,15 +24,9 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 
 - ２重反転式モーター使用（冗長性、スピード、バランス、反動トルク無し）
 
- 訳注：同じ軸に互いに逆方向に回転する２つのプロペラが付いています。  
-![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_095201-300x225.jpg)
-
 - Uses remote servos (wing flaperons, the tail surface) for more storage and ease of repair
 
-- より多くのストレージと修理の容易さのためにリモートサーボ（フラッペロン、尾翼面）を使用
-
-> 訳注：フラッペロンとは、フラップ（翼の後方を下げて揚力を高める）と、補助翼（機体の左右の傾き・ロールを制御するため、翼の後縁に左右対称に取り付けられている操縦翼面）を、１つにしたもの。このフラッペロン操作用のサーボはおそらく主翼内に、尾翼後縁のエレベータ/ラダーを制御するためのサーボに至っては通常のように機体内ではなく下画像のように尾翼表面に設置されています。  
-![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_100921-225x300.jpg)
+- より多くのストレージと修理の容易さのためにリモートサーボ（フラッペロンと尾翼面）を使用
 
 - Empty weight 5.5kg
 - 無荷載時重量5.5キログラム
@@ -58,10 +47,7 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 - 翼、着陸装置、その他のモジュールを固定するため、胴体には縦げた材を配置
 
 - These channels also hold internal items like the motor via bulkhead rings, for quick changes
-- これらの形鋼材はまた、（変更しやすいように環状隔壁を介して）モーター等の内部の部品を支えている
-
- 訳注：Stringersあるいはchannelsと表現されているのは下画像の長い鋼材の事のようです。bulkhead ringsは胴体の筒の事だと思われます。  
-![](http://www.openrelief.org/home/wp-content/uploads/2013/05/20130430_095613-300x225.jpg)
+- これらの縦げた形鋼材はまた、（変更しやすいように環状隔壁を介して）モーター等の内部の部品を支えている
 
 - Fuselage can carry liquids (same diameter as 2L bottle of cola)
 - 胴体は液体の運搬が可能（大きさはコーラの2Lボトルと同じ程度の直径）
@@ -75,10 +61,6 @@ OpenRelief のロボット飛行機は、既存のコンポーネントの組み
 - CAD files are from Solidworks
 - CADファイルは SolidWorks で作成
 
-> 訳注: ファイルはソリッドワークス社の無償CADツールで開くことができます。
-<http://www.solidworks.co.jp/sw/products/free-cad-software-downloads.htm>  
- 上記はWin Vista以降のみ対応です。XPの人はRhinoceros評価版等が使えます。
- <http://www.rhino3d.co.jp/product/Rhino50/download.html> 
 
 ##Design Files
 
@@ -89,6 +71,12 @@ You can download the CAD schematics and the bill of materials here:
 CAD図面と部品表のダウンロード: 
 
 <http://www.openrelief.org/documents/CTOL-UAV-current.zip>
+
+> 外部リンク（CAD図面を開くための非OSSソフトウェア）:  
+無償CADツール(ソリッドワークス・ジャパン社サイト)
+<http://www.solidworks.co.jp/sw/products/free-cad-software-downloads.htm>  
+ Rhinoceros評価版(アプリクラフト社サイト)
+ <http://www.rhino3d.co.jp/product/Rhino50/download.html> 
 
 
 ##The People Behind The Airframe
